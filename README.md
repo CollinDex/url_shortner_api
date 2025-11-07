@@ -51,10 +51,16 @@ Before you begin, ensure you have the following installed on your machine:
 ```bash
 yarn install
 ```
+### 4. Create a .env file and paste the following
+```bash
+NODE_ENV=production
+PORT=8000
+BASE_URL="api-prefix": "api/v1"
+```
 
-### 4. Run Dev Server
+### 5 Run Dev Server
 ```bash
 yarn run dev
 ```
 
-### 5. Locate endpoints at http://localhost:8000/api/docs/
+### 6. Locate endpoints at http://localhost:8000/api/docs/
