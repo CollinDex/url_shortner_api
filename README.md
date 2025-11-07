@@ -41,7 +41,20 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/url-shortener.git
+### 1. Clone the Repository
+```bash
+   git clone https://github.com/CollinDex/url-shortener.git
    cd url-shortener
+```
+
+### 3. Install packages
+```bash
+yarn install
+```
+
+### 4. Run Dev Server
+```bash
+yarn run dev
+```
+
+### 5. Locate endpoints at http://localhost:8000/api/docs/
